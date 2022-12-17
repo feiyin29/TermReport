@@ -1,0 +1,30 @@
+create table covidCases
+(
+row int  primary key,
+yearnum int,
+weeknum int,
+new_case int,
+total_case int,
+new_case_excludeabroad int,
+total_case_excludeabroad int,
+new_recovered int,
+total_recovered int,
+new_death int,
+total_death int,
+case_foreign int,
+case_prison int,
+case_walkin int,
+case_new_prev int,
+case_new_diff int,
+death_new_prev int,
+death_new_diff int,
+update_date varchar(80)
+);
+
+
+
+
+
+
+INSERT INTO APP.COVIDCASES (ROW, YEARNUM, WEEKNUM, NEW_CASE, TOTAL_CASE, NEW_CASE_EXCLUDEABROAD, TOTAL_CASE_EXCLUDEABROAD, NEW_RECOVERED, TOTAL_RECOVERED, NEW_DEATH, TOTAL_DEATH, CASE_FOREIGN, CASE_PRISON, CASE_WALKIN, CASE_NEW_PREV, CASE_NEW_DIFF, DEATH_NEW_PREV, DEATH_NEW_DIFF, UPDATE_DATE) 
+	VALUES (1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0')
